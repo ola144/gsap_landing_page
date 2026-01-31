@@ -72,7 +72,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="hero" className="noisy overflow-hidden">
+      <section id="hero" className="noisy overflow-hidden h-fit">
         <h1 className="title">MOJITO</h1>
 
         <img
@@ -90,7 +90,7 @@ const Hero = () => {
           {/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
 
           <div className="content">
-            <div className="space-y-5 hidden md:block">
+            <div className="space-y-5 hidden lg:block">
               <p>Cool. Crisp. Classic.</p>
               <p className="subtitle">
                 Sip the Spirit <br /> of Summer
